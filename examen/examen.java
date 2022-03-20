@@ -1,4 +1,4 @@
-package examen;
+package simulacion;
 
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
@@ -13,7 +13,7 @@ import javax.swing.SwingConstants;
 		public class examen extends JFrame implements ActionListener {
 			LeeEntero semilla;
 		
-	
+			int x,y,w,h;
 		int n;
 		int semilla_cuadrado=0;
 		int numero_interno=0;
@@ -33,10 +33,7 @@ import javax.swing.SwingConstants;
 			
 				add(new JLabel("semilla",SwingConstants.RIGHT));
 				add(semilla);
-				add(new JLabel("simulacion",SwingConstants.RIGHT));
-				//setLayout(new GridLayout(0,5,5,5));
 				
-				add(new JLabel("n",SwingConstants.RIGHT));
 				
 				//this.setResizable(false);
 				setVisible(true);

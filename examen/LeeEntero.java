@@ -1,4 +1,4 @@
-package examen;
+package simulacion;
 
 import javax.swing.*;
 import javax.swing.border.LineBorder;
